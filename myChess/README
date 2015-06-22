@@ -1,0 +1,18 @@
+this folder contains a working copy of the files required to run my chess engine through the gui.
+Some of the files here are used, some are not and I haven't gotten around to pruning those out or refactoring
+the rest of the files so this represents a very bare bones repository with limited explanation. I didn't write
+the code for readability as I was the only one who needed to interact with/understand the code. In order to run
+my chess engine locally you will need these files:
+
+1. ChessBoardWithColumnsAndRows.java
+2. bitBoardOperations.java
+3. AIv2Tree.java
+4. chessPics.png
+5. and all of the comparator classes. 
+
+File 1 contains the basic GUI and this file needs to be executed to initiate the GUI. Everything else is called
+via interaction with the GUI. 
+File 2 contains all of the bitboard operations I required.
+File 3 contains the tree and node classes along with relevant functions. 
+File 4 contains the images for the GUI
+The File 5 classes are simple comparator classes used when sorting the branches during AB search.
