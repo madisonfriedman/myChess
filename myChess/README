@@ -1,8 +1,15 @@
-this folder contains a working copy of the files required to run my chess engine through the gui.
-Some of the files here are used, some are not and I haven't gotten around to pruning those out or refactoring
+This folder contains a working copy of the files required to run my chess engine through the gui.
+Some of the files here are used, some are not, and I haven't gotten around to pruning those out or refactoring
 the rest of the files so this represents a very bare bones repository with limited explanation. I didn't write
-the code for readability as I was the only one who needed to interact with/understand the code. In order to run
-my chess engine locally you will need these files:
+the code for readability as I was the only one who needed/wanted to interact with/understand the code. Furthermore
+the overall structure of the engine was changing frequently as my understanding of the nuances of the problem evolved.
+This made commenting everything a pain as I had to test mutiple combinations of various segments of the code in order
+to find an optimal combination. Had I realized at the start of this project how complex the code would be I probably
+would have opted to take advantage of git from the start. Lesson learned, I can assure you that my production code
+doesn't look as messy as this does at the moment. I plan to refactor everything when I have completed updating and
+tuning the heuristic.
+
+In order to runmy chess engine locally you will need these files:
 
 1. ChessBoardWithColumnsAndRows.java
 2. bitBoardOperations.java
